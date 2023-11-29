@@ -23,11 +23,11 @@ CloudUploader is a command-line interface (CLI) tool designed to simplify upload
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd cloudUploader-CLI-Project
+   cd CloudUploader-CLI-Project
    ```
 3. **Run the Installation Script**:
    ```bash
-   chmod +x install.sh
+   chmod +x installerscript.sh
    ./install.sh
 
 - After installation, the Clouduploader command will be available globally in your terminal.
@@ -47,8 +47,14 @@ export AZ_TENANT_ID='your-tenant-id'
 To upload a file to Azure Blob Storage, use the following command:
 
 ```bash
-./clouduploader.sh /path/to/file1 /path/to/file2 ...
+./uploaderscript.sh /path/to/file
 ```
+To upload multiple files to Azure Blob Storage, use the following command:
+
+```bash
+./uploaderscript.sh /path/to/file1 /path/to/file2 ...
+```
+
 After the upload, you can generate a shareable link by responding 'yes' when prompted. 
 
 Below is a snapshot of the tool in action:
