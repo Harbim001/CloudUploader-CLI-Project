@@ -32,6 +32,16 @@ CloudUploader is a command-line interface (CLI) tool designed to simplify upload
 
 - After installation, the Clouduploader command will be available globally in your terminal.
 
+## Setting Environment Variables
+
+Set up the following environment variables with your Azure Service Principal credentials for the script to use:
+
+```bash
+export AZ_APP_ID='your-app-id'
+export AZ_PASSWORD='your-app-password'
+export AZ_TENANT_ID='your-tenant-id'
+```
+
 ## Usage 
 
 To upload a file to Azure Blob Storage, use the following command:
@@ -56,6 +66,8 @@ Below is a snapshot of the tool in action:
    - Check if the specified file path is correct and if you have write permissions to the Azure Blob Storage container.
 - **Link Generation Errors**:
    - Verify that your storage account name and container name are correctly configured in the script.
+- **File not found errors**:
+   - Ensure the paths to the files are correct and that the files exist at those locations.
 
 ## Contributing
 
