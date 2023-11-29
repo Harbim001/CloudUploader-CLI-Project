@@ -30,7 +30,7 @@ CloudUploader is a command-line interface (CLI) tool designed to simplify upload
    chmod +x installerscript.sh
    ./install.sh
 
-- After installation, the Clouduploader command will be available globally in your terminal.
+- After installation, the uploaderscript command will be available globally in your terminal.
 
 ## Setting Environment Variables
 
