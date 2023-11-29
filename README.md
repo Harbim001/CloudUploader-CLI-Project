@@ -53,9 +53,10 @@ After the upload, you can generate a shareable link by responding 'yes' when pro
 
 Below is a snapshot of the tool in action:
 
-<img width="810" alt="Screenshot 2023-11-25 at 20 45 06" src="https://github.com/Harbim001/CloudUploader-CLI-Project/assets/98036782/fe982336-0d77-48fd-8678-31e45dbd6aa6">
+<img width="797" alt="Screenshot 2023-11-25 at 20 47 46" src="https://github.com/Harbim001/CloudUploader-CLI-Project/assets/98036782/fa91ea2c-5d8d-45df-a141-221c3bc23051">
 
-<img width="1403" alt="Screenshot 2023-11-29 at 20 54 45" src="https://github.com/Harbim001/CloudUploader-CLI-Project/assets/98036782/e8d3760a-75ed-4de0-b572-afc1984a20e7">
+<img width="1403" alt="Screenshot 2023-11-29 at 23 29 06" src="https://github.com/Harbim001/CloudUploader-CLI-Project/assets/98036782/1b0aba52-4dea-44c3-b2b5-856503d4017e">
+
 
 
 ## Troubleshooting
