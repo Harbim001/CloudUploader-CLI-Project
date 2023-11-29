@@ -39,5 +39,16 @@ To upload a file to Azure Blob Storage, use the following command:
 ```bash
 ./clouduploader.sh /path/to/file1 /path/to/file2 ...
 ```
-After the upload, you can generate a shareable link by responding 'yes' when prompted. Below is a snapshot of the tool in action
+After the upload, you can generate a shareable link by responding 'yes' when prompted. 
 
+Below is a snapshot of the tool in action
+
+<img width="810" alt="Screenshot 2023-11-25 at 20 45 06" src="https://github.com/Harbim001/CloudUploader-CLI-Project/assets/98036782/fe982336-0d77-48fd-8678-31e45dbd6aa6">
+
+<img width="1403" alt="Screenshot 2023-11-29 at 20 54 45" src="https://github.com/Harbim001/CloudUploader-CLI-Project/assets/98036782/e8d3760a-75ed-4de0-b572-afc1984a20e7">
+
+
+## Troubleshooting
+
+- **Authentication Issues**:
+   - Ensure your Azure CLI is logged in **az login** and has the necessary permissions.
