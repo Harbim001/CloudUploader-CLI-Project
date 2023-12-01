@@ -28,7 +28,7 @@ CloudUploader is a command-line interface (CLI) tool designed to simplify upload
 3. **Run the Installation Script**:
    ```bash
    chmod +x installerscript.sh
-   ./installscript.sh
+   ./installerscript.sh
 
 - After installation, the uploaderscript command will be available globally in your terminal.
 
